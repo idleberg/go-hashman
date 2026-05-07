@@ -39,17 +39,17 @@ See `hashman --help` for all available options.
 Oh right, this CLI is a clone of my own NodeJS implementation. Let's check how they compare in terms of speed:
 
 ```
-Benchmark 1: node-hashman -A Josey\ Rebelle\ -\ TTT\ Mix.mp3
+Benchmark 1: node-hashman -A "Josey Rebelle - TTT Mix.mp3"
   Time (mean ± σ):      1.354 s ±  0.019 s    [User: 8.719 s, System: 1.094 s]
   Range (min … max):    1.328 s …  1.391 s    10 runs
  
-Benchmark 2: go-hashman -A Josey\ Rebelle\ -\ TTT\ Mix.mp3
+Benchmark 2: go-hashman -A "Josey Rebelle - TTT Mix.mp3"
   Time (mean ± σ):     745.9 ms ±  16.7 ms    [User: 3770.0 ms, System: 497.5 ms]
   Range (min … max):   718.7 ms … 767.1 ms    10 runs
  
 Summary
-  go-hashman -A Josey\ Rebelle\ -\ TTT\ Mix.mp3 ran
-    1.82 ± 0.05 times faster than node-hashman -A Josey\ Rebelle\ -\ TTT\ Mix.mp3
+  go-hashman -A "Josey Rebelle - TTT Mix.mp3" ran
+    1.82 ± 0.05 times faster than node-hashman -A "Josey Rebelle - TTT Mix.mp3"
 ```
 
 ## Related 👫
