@@ -1,0 +1,25 @@
+# Build Stage
+####################
+FROM --platform=$BUILDPLATFORM golang:1.25-alpine AS builder
+
+ARG TARGETOS
+ARG TARGETARCH
+ARG VERSION=dev
+
+WORKDIR /app
+
+COPY internal go.mod go.sum main.go ./
+
+RUN go mod download
+RUN GOOS=$TARGETOS GOARCH=$TARGETARCH go build -ldflags="-s -w -X main.Version=$VERSION" -o hashman main.go
+
+
+# Final Stage
+####################
+FROM gcr.io/distroless/static
+
+# Copy the binary from the builder stage
+COPY --from=builder /app/hashman /usr/local/bin/hashman
+
+# Command to run the executable
+ENTRYPOINT [ "/usr/local/bin/hashman" ]
