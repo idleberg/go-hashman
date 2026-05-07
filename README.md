@@ -34,13 +34,9 @@ hashman --all "Hashman Deejay - Sandopolis.zip"
 
 See `hashman --help` for all available options.
 
-## Related 👫
-
-- [@idleberg/hashman](https://www.npmjs.com/package/@idleberg/hashman) - NodeJS implementation of this package
-
 ## Benchmark ⏱️
 
-## Related 👫	
+Oh right, this CLI is a clone of my own NodeJS implementation. Let's check how they compare in terms of speed:
 
 ```
 Benchmark 1: node-hashman -A Josey\ Rebelle\ -\ TTT\ Mix.mp3
@@ -55,6 +51,11 @@ Summary
   go-hashman -A Josey\ Rebelle\ -\ TTT\ Mix.mp3 ran
     1.82 ± 0.05 times faster than node-hashman -A Josey\ Rebelle\ -\ TTT\ Mix.mp3
 ```
+
+## Related 👫
+
+- [@idleberg/hashman](https://www.npmjs.com/package/@idleberg/hashman) - NodeJS implementation of this package
+
 
 ## License ©️
 
