@@ -34,7 +34,7 @@ func (m SpinnerModel) Results() []hasher.Result {
 func NewSpinnerModel(filePath string, algorithms []algo.Algorithm, maxWorkers int) SpinnerModel {
 	s := spinner.New(
 		spinner.WithSpinner(spinner.Dot),
-		spinner.WithStyle(lipgloss.NewStyle().Foreground(lipgloss.Yellow)),
+		spinner.WithStyle(lipgloss.NewStyle().Foreground(lipgloss.BrightCyan)),
 	)
 	return SpinnerModel{
 		spinner:    s,

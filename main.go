@@ -43,7 +43,7 @@ func main() {
 	}
 
 	if err := rootCmd.Execute(); err != nil {
-		ui.Logger.Error(err.Error())
+		ui.Logger.Error("%s", err)
 		os.Exit(1)
 	}
 }
