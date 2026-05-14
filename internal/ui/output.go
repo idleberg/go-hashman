@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/idleberg/hashman/internal/hasher"
+	"github.com/idleberg/go-hashman/internal/hasher"
 )
 
 func PrintResults(filePath string, results []hasher.Result, totalDuration time.Duration, maxDisplayLen int) {

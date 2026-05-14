@@ -2,9 +2,9 @@
 
 > CLI to calculate multiple checksums at once.
 
-![License](https://img.shields.io/github/license/idleberg/hashman?style=for-the-badge)
-![Version](https://img.shields.io/github/v/release/idleberg/hashman?sort=semver&style=for-the-badge)
-[![Build](https://img.shields.io/github/actions/workflow/status/idleberg/hashman/build.yml?style=for-the-badge)](https://github.com/idleberg/hashman/actions)
+![License](https://img.shields.io/github/license/idleberg/go-hashman?style=for-the-badge)
+![Version](https://img.shields.io/github/v/release/idleberg/go-hashman?sort=semver&style=for-the-badge)
+[![Build](https://img.shields.io/github/actions/workflow/status/idleberg/go-hashman/build.yml?style=for-the-badge)](https://github.com/idleberg/go-hashman/actions)
 
 Supports Adler-32, CRC32, CRC32C, CRC64, MD4, MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-224, SHA3-256, SHA3-384, and SHA3-512.
 
@@ -21,7 +21,7 @@ $ brew install idleberg/asahi/hashman
 ### Go
 
 ```sh
-$ go install github.com/idleberg/hashman@latest
+$ go install github.com/idleberg/go-hashman@latest
 ```
 
 ## Usage 🚀
@@ -52,7 +52,7 @@ Summary
 
 ## Related 👫
 
-- [@idleberg/hashman](https://www.npmjs.com/package/@idleberg/hashman) - NodeJS implementation of this package
+- [@idleberg/go-hashman](https://www.npmjs.com/package/@idleberg/go-hashman) - NodeJS implementation of this package
 
 
 ## License ©️

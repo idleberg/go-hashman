@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idleberg/hashman/internal/algo"
+	"github.com/idleberg/go-hashman/internal/algo"
 )
 
 // Result holds the output of a single hash computation.

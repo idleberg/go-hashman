@@ -7,8 +7,8 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"charm.land/lipgloss/v2"
 
-	"github.com/idleberg/hashman/internal/algo"
-	"github.com/idleberg/hashman/internal/hasher"
+	"github.com/idleberg/go-hashman/internal/algo"
+	"github.com/idleberg/go-hashman/internal/hasher"
 )
 
 type hashDoneMsg struct {

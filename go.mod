@@ -1,4 +1,4 @@
-module github.com/idleberg/hashman
+module github.com/idleberg/go-hashman
 
 go 1.26.1
 

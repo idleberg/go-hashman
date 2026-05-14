@@ -10,9 +10,9 @@ import (
 	"github.com/mattn/go-isatty"
 	"github.com/spf13/cobra"
 
-	"github.com/idleberg/hashman/internal/algo"
-	"github.com/idleberg/hashman/internal/hasher"
-	"github.com/idleberg/hashman/internal/ui"
+	"github.com/idleberg/go-hashman/internal/algo"
+	"github.com/idleberg/go-hashman/internal/hasher"
+	"github.com/idleberg/go-hashman/internal/ui"
 )
 
 var (

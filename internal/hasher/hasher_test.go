@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/idleberg/hashman/internal/algo"
+	"github.com/idleberg/go-hashman/internal/algo"
 )
 
 func TestHashFileKnownValues(t *testing.T) {
