@@ -54,7 +54,6 @@ Summary
 
 - [@idleberg/hashman](https://www.npmjs.com/package/@idleberg/hashman) - NodeJS implementation of this package
 
-
 ## License ©️
 
 This work is licensed under [The MIT License](LICENSE).
