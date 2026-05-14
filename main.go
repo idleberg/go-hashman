@@ -22,10 +22,10 @@ var (
 
 func main() {
 	rootCmd := &cobra.Command{
-		Use:   "hashman [flags] <file> [file...]",
-		Short: "Calculate multiple hashes for files concurrently",
-		Args:  cobra.MinimumNArgs(1),
-		RunE:  run,
+		Use:           "hashman [flags] <file> [file...]",
+		Short:         "Calculate multiple hashes for files concurrently",
+		Args:          cobra.MinimumNArgs(1),
+		RunE:          run,
 		SilenceUsage:  true,
 		SilenceErrors: true,
 	}
