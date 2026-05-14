@@ -16,6 +16,7 @@ import (
 )
 
 var (
+	Version   = "dev"
 	allFlag   bool
 	algoFlags = make(map[string]*bool)
 )
@@ -27,6 +28,7 @@ func main() {
 		Args:          cobra.MinimumNArgs(1),
 		RunE:          run,
 		SilenceUsage:  true,
+		Version:       Version,
 		SilenceErrors: true,
 	}
 
