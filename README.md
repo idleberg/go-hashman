@@ -52,7 +52,7 @@ Summary
 
 ## Related 👫
 
-- [@idleberg/go-hashman](https://www.npmjs.com/package/@idleberg/go-hashman) - NodeJS implementation of this package
+- [@idleberg/hashman](https://www.npmjs.com/package/@idleberg/hashman) - NodeJS implementation of this package
 
 
 ## License ©️
