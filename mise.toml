@@ -1,2 +1,10 @@
 [tools]
 go = "latest"
+
+[tasks.build]
+description = "Build the Go application"
+run = "go build -v -ldflags=\"-s -w -X main.Version=ci\" ./..."
+
+[tasks.fmt]
+description = "Format the Go code"
+run = "go fmt ./..."
